@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="hero-container">
         <div className="hero-image-wrapper">
           <img
-            src="src\assets\nithis.jpg"
+            src="nithis.jpg"
             alt="Nithish Profile"
             className="hero-image"
           />

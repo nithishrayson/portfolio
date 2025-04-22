@@ -12,7 +12,7 @@ function AboutSection() {
             </p>
           </div>
           <div className="about-image">
-            <img src= "src\assets\nithishkumar.jpeg" alt="Nithish" className="profile-img" />
+            <img src= "/nithishkumar.jpeg" alt="Nithish" className="profile-img" />
           </div>
         </div>
       </div>

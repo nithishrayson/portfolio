@@ -8,13 +8,13 @@ function Footer() {
         <p className="footer-text">&copy; {new Date().getFullYear()} Nithish. All rights reserved.</p>
         <div className="footer-icons">
           <a href="https://github.com/nithishrayson" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/github.png" alt="GitHub" />
+            <img src="/github.png" alt="GitHub" />
           </a>
           <a href="https://linkedin.com/in/nithish-kumar-srinivasan" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/linkedin.png" alt="LinkedIn" />
+            <img src="linkedin.png" alt="LinkedIn" />
           </a>
           <a href="mailto:nithishrayson2004@gmail.com">
-            <img src="src/assets/gmail.png" alt="Email" />
+            <img src="gmail.png" alt="Email" />
           </a>
         </div>
       </div>

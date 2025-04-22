@@ -1,7 +1,7 @@
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-                url('/src/assets/bgmountain.jpg') no-repeat center center/cover;
+                url('/bgmountain.jpg') no-repeat center center/cover;
     color: #fff;
     display: flex;
     justify-content: center;
