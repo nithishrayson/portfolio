@@ -14,7 +14,7 @@ function HeroSection() {
         </div>
         <div className="hero-content">
           <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Nithish</span>
+            Hi, I'm <span className="highlight">Nithish Kumar Srinivasan</span>
           </h1>
           <p className="hero-subtitle">
             A passionate developer crafting impactful solutions through clean, efficient code.

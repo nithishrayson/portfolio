@@ -1,79 +1,44 @@
 #skills {
-    padding: 80px 20px;
-    background-color: #1a1a1a;
-    color: #fff;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 40px;
-    color: #ec300f;
-    margin-bottom: 60px;
-    font-weight: 700;
-  }
-  
-  .circle-skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-  }
-  
-  .circle-skill {
-    text-align: center;
-    width: 140px;
-  }
-  
-  .circle-wrapper {
-    position: relative;
-    width: 120px;
-    height: 120px;
-  }
-  
-  .progress-ring circle {
-    fill: none;
-    stroke-width: 10;
-    r: 50;
-    cx: 60;
-    cy: 60;
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-  }
-  
-  .progress-ring .bg {
-    stroke: #333;
-  }
-  
-  .progress-ring .progress {
-    stroke: #ec300f;
-    stroke-dasharray: 314; /* 2πr for r=50 */
-    stroke-dashoffset: 314;
-    transition: stroke-dashoffset 1.2s ease-in-out;
-  }
-  
-  .icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 32px;
-    color: #fff;
-  }
-  
-  .skill-label {
-    margin-top: 15px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #ec300f;
-  }
-  
-  .percent {
-    font-size: 14px;
-    color: #bbb;
-  }
-  
+  padding: 80px 20px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 36px;
+  color: #ec300f;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.skill-card {
+  background: #1f1f1f;
+  border-radius: 12px;
+  padding: 20px;
+  width: 140px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ec300f;
+}
